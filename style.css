@@ -1,5 +1,6 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box; 
+    
 }
 article{  
     height: 200px;
@@ -170,6 +171,7 @@ h5{
     font-family: 'Open Sans Condensed', sans-serif;
  }
  .precio{
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         color: rgb(106, 168, 12);
         text-align: left;
@@ -236,7 +238,7 @@ h5{
     left: 15%;
  }
  .text-seccion3{
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
     margin: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -582,6 +584,7 @@ h5{
           height: 100px;
           width: 100%;
         }
+
          .grid{
             display: grid;
             grid-template-columns: auto auto auto auto auto auto;
@@ -652,23 +655,22 @@ h5{
             margin: 5px;
             font-family: 'Montserrat', sans-serif;
      }
-      nav{
-          height: 600px;
-            -webkit-background-size:1300px 600px ;
-      }
         .nav-font{
             margin: 3px;
         }
         h5{
             font-size: 18px;
         }
-    
+        nav{
+            height: 600px;
+            -webkit-background-size:1300px 600px ;
+               }
         .h-seccion3{
-            font-size: 15px;
+            font-size: 18px;
             left: 5%;
         }
         .text-seccion3{
-            font-size: 9px;
+            font-size: 12px;
             left: 5%;
         }
         .bt-contactanos{
